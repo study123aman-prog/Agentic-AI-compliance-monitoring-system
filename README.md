@@ -33,7 +33,7 @@ flowchart LR
     TM & CS & RU & CE & EM & RG -.->|every step| AL[(Audit Ledger<br/>hash-chained, WORM)]
     EM -->|tier T0–T4| HUMAN[Human reviewer /<br/>Legal / Board]
 ```
-
+//this was a lot
 The pipeline for one case is always the same six steps: **ingest → route → detect → reach consensus → escalate → report**, with **every** step written to the append-only audit ledger. Because the path is identical for all 20 scenarios, the behaviour is reproducible and the audit trail is complete by construction.
 
 ## 3. The agents and coordination components
